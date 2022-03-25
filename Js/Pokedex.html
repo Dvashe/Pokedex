@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Pokedex.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Pokedex</title>
+</head>
+<body>
+<div class="fondo">
+    <nav class="Nav">
+        <img src="./Pokemon-logo-497D61B223-seeklogo.com.png" class="img_nav">
+    </nav>
+    <div class="texto">
+     <p class="int_nombre">Introduzca el nombre de su pokémon</p> <br>
+     <input type="text" id="Poke_name" name="Pokemon" placeholder="Charmander"><br><br>
+    </div>
+
+    <div>
+     <img Poke_sprite() src="/unknown.png" id="Poke_sprite" alt="Pokemon_img"  width="150px"><br>
+     <p id="poke_name"></p>
+      <script type="text/javascript"></script>
+      <div class="Estadisticas">
+        <h3>Estadisticas</h3>
+        <p id="poke_hp" ></p>
+        <P id="poke_attack"></P>
+        <p id="poke_defense"></p> 
+        <p id="poke_special_attack"></p> 
+        <p id="poke_special_defense"></p> 
+        <p id="poke_speed"></p> 
+        <h3 class="Tipo">Tipo</h3>
+        <p id="type"></p>
+        </div>
+     </div>
+    <button onclick="fetchpokemon()"> Busca tu pokémon </button>
+</div>
+</body>
+<footer>
+     <script src="./Pokedex.js"></script>
+</footer>
+</html>
