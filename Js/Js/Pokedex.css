@@ -1,0 +1,64 @@
+*{
+    font-family: 'Ubuntu', sans-serif; 
+    color:aliceblue;
+    text-transform: capitalize;
+    font-size:medium;
+
+}
+body{
+    margin:0px;
+    background-image: url(/Fondo-pokedex-v2.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.img_nav{
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+.img_nav:hover{
+    cursor: pointer;
+
+}
+
+.int_nombre{
+    text-align: center;
+    font-size: large;
+    text-transform: none;
+}
+#Poke_name{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border:0ch;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(0, 0, 0, 0.568);
+}
+.Estadisticas{
+    text-align: center;
+    font-size: medium;
+}
+#Poke_sprite{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#poke_name{
+    text-align: center;
+}
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    background-color: aliceblue;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(202, 202, 202);
+}
+#Error{
+    text-transform: none;
+    text-align: center;
+}
