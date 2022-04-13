@@ -4,7 +4,7 @@ En semanas anteriores, se realizarón diversas practicas que nos ayudaron a ater
 
 
 ## Tecnologias aplicadas
-- Uso de una API.
-- CSS.
-- HTML. 
-- Javascript.
+- [Uso de una API](https://pokeapi.co/)
+- [CSS](https://github.com/Dvashe/Pokedex/blob/main/Js/Pokedex.css).
+- [HTML](https://github.com/Dvashe/Pokedex/blob/main/Js/Pokedex.html). 
+- [Javascript](https://github.com/Dvashe/Pokedex/blob/main/Js/Pokedex.js).
