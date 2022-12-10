@@ -1,6 +1,6 @@
 # Pokedex
 
-En semanas anteriores, se realizaron diversas prácticas que nos ayudaron a aterrizar los conocimientos obtenidos mediante las sesiones teóricas, así como el nuestra investigación temporal y por ello, aplicaremos parte de lo aprendido para desarrollar una aplicación la cual tiene como objetivo solicitar información a una API y mostrarla para el usuario con un formato legible y estilizado.
+Proyecto realizado como parte del curso "Launch X" impartido por "Innovaccion Virtual" de Microsoft.
 
 
 ## Tecnologias aplicadas
